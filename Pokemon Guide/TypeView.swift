@@ -30,7 +30,6 @@ struct TypeView: View {
             }
         }
         .padding(.horizontal)
-        .foregroundStyle(.black)
         .onAppear {
             types = dataServer.getFileData()
         }
